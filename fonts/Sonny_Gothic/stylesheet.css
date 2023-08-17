@@ -1,0 +1,216 @@
+@font-face {
+    font-family: 'Sonny Gothic Book';
+    src: url('SonnyGothic-Book.eot');
+    src: local('Sonny Gothic Book'), local('SonnyGothic-Book'),
+        url('SonnyGothic-Book.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-Book.woff2') format('woff2'),
+        url('SonnyGothic-Book.woff') format('woff'),
+        url('SonnyGothic-Book.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-Light.eot');
+    src: local('Sonny Gothic Light'), local('SonnyGothic-Light'),
+        url('SonnyGothic-Light.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-Light.woff2') format('woff2'),
+        url('SonnyGothic-Light.woff') format('woff'),
+        url('SonnyGothic-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-Bold.eot');
+    src: local('Sonny Gothic Bold'), local('SonnyGothic-Bold'),
+        url('SonnyGothic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-Bold.woff2') format('woff2'),
+        url('SonnyGothic-Bold.woff') format('woff'),
+        url('SonnyGothic-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic Ultra';
+    src: url('SonnyGothic-UltraBlack.eot');
+    src: local('Sonny Gothic Ultra Black'), local('SonnyGothic-UltraBlack'),
+        url('SonnyGothic-UltraBlack.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-UltraBlack.woff2') format('woff2'),
+        url('SonnyGothic-UltraBlack.woff') format('woff'),
+        url('SonnyGothic-UltraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-ThinItalic.eot');
+    src: local('Sonny Gothic Thin Italic'), local('SonnyGothic-ThinItalic'),
+        url('SonnyGothic-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-ThinItalic.woff2') format('woff2'),
+        url('SonnyGothic-ThinItalic.woff') format('woff'),
+        url('SonnyGothic-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-BlackItalic.eot');
+    src: local('Sonny Gothic Black Italic'), local('SonnyGothic-BlackItalic'),
+        url('SonnyGothic-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-BlackItalic.woff2') format('woff2'),
+        url('SonnyGothic-BlackItalic.woff') format('woff'),
+        url('SonnyGothic-BlackItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic Ultra';
+    src: url('SonnyGothic-UltraLight.eot');
+    src: local('Sonny Gothic Ultra Light'), local('SonnyGothic-UltraLight'),
+        url('SonnyGothic-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-UltraLight.woff2') format('woff2'),
+        url('SonnyGothic-UltraLight.woff') format('woff'),
+        url('SonnyGothic-UltraLight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic Ultra';
+    src: url('SonnyGothic-UltraLightItalic.eot');
+    src: local('Sonny Gothic Ultra Light Italic'), local('SonnyGothic-UltraLightItalic'),
+        url('SonnyGothic-UltraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-UltraLightItalic.woff2') format('woff2'),
+        url('SonnyGothic-UltraLightItalic.woff') format('woff'),
+        url('SonnyGothic-UltraLightItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic Ultra';
+    src: url('SonnyGothic-UltraBlackItalic.eot');
+    src: local('Sonny Gothic Ultra Black Italic'), local('SonnyGothic-UltraBlackItalic'),
+        url('SonnyGothic-UltraBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-UltraBlackItalic.woff2') format('woff2'),
+        url('SonnyGothic-UltraBlackItalic.woff') format('woff'),
+        url('SonnyGothic-UltraBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-BoldItalic.eot');
+    src: local('Sonny Gothic Bold Italic'), local('SonnyGothic-BoldItalic'),
+        url('SonnyGothic-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-BoldItalic.woff2') format('woff2'),
+        url('SonnyGothic-BoldItalic.woff') format('woff'),
+        url('SonnyGothic-BoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-Black.eot');
+    src: local('Sonny Gothic Black'), local('SonnyGothic-Black'),
+        url('SonnyGothic-Black.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-Black.woff2') format('woff2'),
+        url('SonnyGothic-Black.woff') format('woff'),
+        url('SonnyGothic-Black.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic Book';
+    src: url('SonnyGothic-BookItalic.eot');
+    src: local('Sonny Gothic Book Italic'), local('SonnyGothic-BookItalic'),
+        url('SonnyGothic-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-BookItalic.woff2') format('woff2'),
+        url('SonnyGothic-BookItalic.woff') format('woff'),
+        url('SonnyGothic-BookItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-LightItalic.eot');
+    src: local('Sonny Gothic Light Italic'), local('SonnyGothic-LightItalic'),
+        url('SonnyGothic-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-LightItalic.woff2') format('woff2'),
+        url('SonnyGothic-LightItalic.woff') format('woff'),
+        url('SonnyGothic-LightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-RegularItalic.eot');
+    src: local('Sonny Gothic Regular Italic'), local('SonnyGothic-RegularItalic'),
+        url('SonnyGothic-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-RegularItalic.woff2') format('woff2'),
+        url('SonnyGothic-RegularItalic.woff') format('woff'),
+        url('SonnyGothic-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-Thin.eot');
+    src: local('Sonny Gothic Thin'), local('SonnyGothic-Thin'),
+        url('SonnyGothic-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-Thin.woff2') format('woff2'),
+        url('SonnyGothic-Thin.woff') format('woff'),
+        url('SonnyGothic-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic';
+    src: url('SonnyGothic-Regular.eot');
+    src: local('Sonny Gothic Regular'), local('SonnyGothic-Regular'),
+        url('SonnyGothic-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-Regular.woff2') format('woff2'),
+        url('SonnyGothic-Regular.woff') format('woff'),
+        url('SonnyGothic-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic Extra';
+    src: url('SonnyGothic-ExtraBoldItalic.eot');
+    src: local('Sonny Gothic Extra Bold Italic'), local('SonnyGothic-ExtraBoldItalic'),
+        url('SonnyGothic-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-ExtraBoldItalic.woff2') format('woff2'),
+        url('SonnyGothic-ExtraBoldItalic.woff') format('woff'),
+        url('SonnyGothic-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Sonny Gothic Extra';
+    src: url('SonnyGothic-ExtraBold.eot');
+    src: local('Sonny Gothic Extra Bold'), local('SonnyGothic-ExtraBold'),
+        url('SonnyGothic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('SonnyGothic-ExtraBold.woff2') format('woff2'),
+        url('SonnyGothic-ExtraBold.woff') format('woff'),
+        url('SonnyGothic-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+

@@ -1,0 +1,25 @@
+Tanggalin yung voter list dapat admin lang meron at dapat nadedelete yung student. ==============
+
+alisin na ung user ======
+admin at student lang nasa log in ========
+sa home page alisin narin ? ==========
+Student lang pwede mag register ======
+alisin narin about us =========
+login ung home page =============
+parang pinagawa mo na rin ng buo un system pero may copy na
+Kaya nga
+Gawing homepage yung login pagdasal. ============
+Yung sa view voters dapat tanggalin na yung ALL Voters mga button na ganun 
+Matitira lang doon yung activate saka deactivate button. ===========
+
+ung activation ng account dapat andon parin kasi ayun ung mag secure na the voting is close
+Saka print ==========
+alisin na ung cvs file
+at ung add student ========
+
+ 
+gawin register with email verification or Gawin lang accept or decline ==============
+OSDS lang may control dapat sa mga boboto
+Delete button sa mga registered students ============
+Sa add candidate ng admin
+Kapag nageedit bumabalik sa president yung candidate imbis na yung selected

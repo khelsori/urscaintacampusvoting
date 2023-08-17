@@ -1,0 +1,156 @@
+@font-face {
+    font-family: SonnyBold;
+    src: url(../fonts/Sonny_Gothic/SonnyGothic-Bold.ttf);
+}
+@font-face {
+    font-family: SonnyBlack;
+    src: url(../fonts/Sonny_Gothic/SonnyGothic-Black.ttf);
+}
+@font-face {
+    font-family: SonnyRegular;
+    src: url(../fonts/Sonny_Gothic/SonnyGothic-Regular.ttf);
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+.col-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    height: 100%;
+    background-color: #F4F4F4;
+}
+#left-col{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bg-urs.png);
+    background-position: center;
+}
+#left-col::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background-color: rgba(53, 124, 255, 0.5);
+    z-index: 2;
+}
+.login-div-inner{
+    width: 90%;
+    max-width: 350px;
+    margin: auto;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.1);
+    max-height: 80%;
+    overflow: auto;
+}
+.login-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-btn{
+    width: 100% !important; 
+    margin-top: 20px !important;
+    height: 50px;
+    font-size: 15px;
+    padding: 0;
+    border-radius: 5;
+    font-family: SonnyRegular;
+}
+.form-heading{
+    font-family: SonnyBold;
+}
+.form-field label{
+    font-family: SonnyRegular;
+}
+.form-input{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-family: SonnyBold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+    outline: none;
+    background-color: #F4F4F4;
+}
+.register-btn{
+    width: 100% !important; 
+    margin-top: 10px !important;
+    background-color: transparent;
+    border: none;
+    color: blue;
+    font-family: SonnyRegular;
+    outline: none;
+    font-size: 15px;
+}
+.register-btn:hover{
+    background-color: transparent;
+    color: rgb(89, 89, 255);
+    text-decoration: none !important;
+}
+.form-panel span{
+    font-family: SonnyRegular;
+}
+.form-panel select{
+    font-family: SonnyRegular;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#title-div{
+    font-family: SonnyBlack;
+    font-size: 40px;
+    max-width: 400px;
+    width: auto;
+    margin: 100px;
+    z-index: 3;
+    color: white;
+}
+#sub-title{
+    font-family: SonnyRegular;
+    font-size: 20px;
+}
+#email-btn{
+    width: 200px;
+    color: blue;
+    height: 35px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: SonnyRegular;
+    border-color: white;
+}
+#email-btn:hover{
+    background-color: rgb(130, 102, 255);
+}
+
+#email-btn:active{
+    background-color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .col-container{
+        width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 100% 100%;
+    }
+    #left-col::before {
+        width: 100%;
+        height: 100%;
+    }
+    
+  }
